@@ -1,0 +1,42 @@
+body{
+  background-repeat: no-repeat;
+  background-color: black;
+  position: relative;
+  background-size: 1800px;
+  background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/04/29/11/istock-623595614.jpg?quality=75&width=982&height=726&auto=webp");
+}
+
+h1{
+    color: blue; font-size: 66px; text-align: center; padding: 50px; border: orange 4px; margin: 50px;
+    
+}
+  h2{
+    color: orange; font-size: 45px; text-align: center;
+  }
+  
+  p{
+    color: white; font-size: 44px;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  /* to take away the dots on the nav list put in text declaration: none */
+  li{
+    float: left;
+    padding: 5px;
+  }
+  li a{
+    text-decoration: none;
+    color: orange;
+    font-size: 22px;
+  }
+  footer {
+    color:white;
+    width: 100%;
+    text-align:center;
+    position: absolute;
+  bottom:0;
+    /* position absolute and bottom 0 means i wanna position my footer on the bottom at a specific location */
+  }
+  
